@@ -4,7 +4,7 @@ A repository to create a data base based in species names. It looks for the spec
 **************** SEARCH SPECIES FROM RESEARCH PAPERS
 
 1. cd SCOPUS_SPECIES_LIST_v3
-2. Activate deepseek
+2. Activate deepseek (env based in requirements)
 3. Create txt with the names of the species.
 4. ./batch_multi_database_pipeline_v2.sh --species-file species.txt --claude-key ***** --output-dir ./results
 
