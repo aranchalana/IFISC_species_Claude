@@ -43,3 +43,4 @@ output_directory/
 
 python complete_enhanced_species_mapper_studies_map.py ../SCOPUS_SPECIES_LIST_v3/results_endangered_speces_for_map/all_species_data.csv -o analysis_endangered_study/ --prefix marine_study_endangered_study
 
+En caso de que sólo haya una parte temporal, sin que haya llegado al final: python construct_final_csv.py --temp-dir ./results_endangered_speces_for_map/temp_2527678 --output-dir ./results_endangered_speces_for_map/
